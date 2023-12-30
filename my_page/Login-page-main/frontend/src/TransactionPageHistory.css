@@ -1,0 +1,31 @@
+/* TransactionHistoryPage.css */
+
+.transaction-history-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: transparent;
+}
+
+tbody tr:hover {
+    background-color: transparent;
+}
